@@ -91,6 +91,8 @@ public class AuthController {
 	
    /* @Autowired
     private ApplicationEventPublisher eventPublisher;*/
+    
+    /*test*/
 
 	@PostMapping("/signin")
 	public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginRequest loginRequest) {
